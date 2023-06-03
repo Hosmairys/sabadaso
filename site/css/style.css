@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;700&family=Raleway&family=Righteous&family=Titillium+Web:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container_link{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    font-family: var(--font1);
+    color: #33303E;
+}
+
+.link_orange{
+    display: flex;
+    align-items: center;
+    font-family: var(--font1);
+    color: #FF6E22;
+}
+
+
+
+/*MAIN*/
+
+.conteiner_pet{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.pet_coneudo{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font1);
+    justify-content: space-between;
+}
+
+.conteiner_pet p{
+    font-family: var(--font1);
+    font-size: 25px;
+}
+
+.conteiner_pet h1{
+    font-size: 50px;
+    font-weight: bold;/*para colocar bold no texto*/
+}
+
+.conteiner_pet .pet_img{
+    display: flex;
+    align-items: center;
+}
+
